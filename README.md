@@ -25,8 +25,8 @@ Performance on ModelNet40:
 | Model | Accuracy |
 |--|--|
 | PointNet2_MSG (Pytorch with normal) | [92.8](https://github.com/yanx27/Pointnet_Pointnet2_pytorch/blob/master/log/classification/pointnet2_msg_normals/logs/pointnet2_cls_msg.txt)|
-| Interpretable3D-M+PointNet2_MSG (Pytorch with normal) | [93.5](.\PointNet2\log\classification\pointnet2_cls_msg_ip3d\logs\pointnet2_cls_msg_ip3d.txt) |
-| Interpretable3D-M+PointNet2_MSG (Pytorch with normal) (vote) |  **[93.7](.\PointNet2\log\classification\pointnet2_cls_msg_ip3d\eval.txt)**|
+| Interpretable3D-M+PointNet2_MSG (Pytorch with normal) | [93.5](https://github.com/FengZicai/Interpretable3D/blob/main/PointNet2/log/classification/pointnet2_cls_msg_ip3d/logs/pointnet2_cls_msg_ip3d.txt) |
+| Interpretable3D-M+PointNet2_MSG (Pytorch with normal) (vote) |  **[93.7](https://github.com/FengZicai/Interpretable3D/blob/main/PointNet2/log/classification/pointnet2_cls_msg_ip3d/eval.txt)**|
 
 More code and experimental results will be gradually open-sourced.
 
