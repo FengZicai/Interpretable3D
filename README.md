@@ -51,7 +51,7 @@ Please refer to [Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_
 | Interpretable3D-M+PointNet2_MSG (Pytorch with normal) (vote) |  **[93.7](PointNet2/log/classification/pointnet2_cls_msg_ip3d/eval.txt)**|
 
 
-#### Performance on ScanObjectNN
+#### Performance on ScanObjectNN:
 
 | Model | OA(%) | mAcc(%) |
 |--|--|--|
