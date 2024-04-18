@@ -13,7 +13,7 @@ This is the official implementation of "Interpretable3D: An Ad-Hoc Interpretable
 
 ModelNet40: **ModelNet** [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and save in `data/modelnet40_normal_resampled/`.
 
-ScanObjectNN: **ScanObjectNN** [here](https://hkust-vgd.github.io/scanobjectnn/) and save in `data/ScanObjectNN/main_split`.
+ScanObjectNN: **ScanObjectNN** [here](https://hkust-vgd.github.io/scanobjectnn/) and save in `data/ScanObjectNN/main_split/`.
 
 Note: We conduct experiments on the hardest variant of ScanObjectNN (PB_T50_RS).
 
