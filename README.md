@@ -55,8 +55,8 @@ Please refer to [Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_
 
 | Model | OA(%) | mAcc(%) |
 |--|--|--|
-| PointNet2_MSG (Pytorch with normal) | [79.9](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn\logs\pointnet2_cls_msg.txt) | [77.1](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn\logs\pointnet2_cls_msg.txt) |
-| Interpretable3D-M+PointNet2_MSG (Pytorch with normal) | **[80.0](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn_ip3d\logs\pointnet2_cls_msg.txt)** | **[77.3](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn_ip3d\logs\pointnet2_cls_msg.txt)**|
+| PointNet2_MSG (Pytorch with normal) (reprod.) | [79.9](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn\logs\pointnet2_cls_msg.txt) | [77.1](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn\logs\pointnet2_cls_msg.txt) |
+| Interpretable3D-M+PointNet2_MSG (Pytorch with normal) (reprod.) | **[80.0](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn_ip3d\logs\pointnet2_cls_msg.txt)** | **[77.3](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn_ip3d\logs\pointnet2_cls_msg.txt)**|
 
 
 More code and experimental results will be gradually open-sourced.
