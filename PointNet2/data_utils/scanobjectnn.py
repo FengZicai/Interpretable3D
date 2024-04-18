@@ -1,8 +1,6 @@
-import os, sys, h5py, pickle, numpy as np, logging, os.path as osp
+import os, sys, h5py, pickle, numpy as np, os.path as osp
 import torch
 from torch.utils.data import Dataset
-
-# from openpoints.models.layers import fps
 
 def pc_normalize(pc):
     centroid = np.mean(pc, axis=0)
@@ -79,6 +77,7 @@ class ScanObjectNNHardest(Dataset):
         if not osp.isfile(h5_name):
             raise FileExistsError(
                 f'{h5_name} does not exist, please download dataset at first')
+            
         with h5py.File(h5_name, 'r') as f:
             self.points = np.array(f['data']).astype(np.float32)
             self.labels = np.array(f['label']).astype(int)
@@ -97,7 +96,7 @@ class ScanObjectNNHardest(Dataset):
                 with open(precomputed_path, 'rb') as f:
                     self.points = pickle.load(f)
                     print(f"{precomputed_path} load successfully")
-        logging.info(f'Successfully load ScanObjectNN {split} '
+        print(f'Successfully load ScanObjectNN {split} '
                      f'size: {self.points.shape}, num_classes: {self.labels.max()+1}')
 
     @property
@@ -119,13 +118,3 @@ class ScanObjectNNHardest(Dataset):
 
     def __len__(self):
         return self.points.shape[0]
-
-    """ for visulalization
-    from openpoints.dataset import vis_multi_points
-    import copy
-    old_points = copy.deepcopy(data['pos'])
-    if self.transform is not None:
-        data = self.transform(data)
-    new_points = copy.deepcopy(data['pos'])
-    vis_multi_points([old_points, new_points.numpy()])
-    End of visulization """
