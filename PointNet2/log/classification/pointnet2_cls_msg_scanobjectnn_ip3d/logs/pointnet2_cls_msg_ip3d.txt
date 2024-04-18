@@ -1,0 +1,877 @@
+2024-04-17 09:38:41,407 - Model - INFO - PARAMETER ...
+2024-04-17 09:38:41,407 - Model - INFO - Namespace(batch_size=24, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_cls_msg_scanobjectnn_ip3d', model='pointnet2_cls_msg_ip3d', num_category=15, num_point=2048, optimizer='Adam', use_cpu=False)
+2024-04-17 09:38:41,407 - Model - INFO - Load dataset ...
+2024-04-17 09:39:34,389 - Model - INFO - PARAMETER ...
+2024-04-17 09:39:34,390 - Model - INFO - Namespace(batch_size=24, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_cls_msg_scanobjectnn_ip3d', model='pointnet2_cls_msg_ip3d', num_category=15, num_point=2048, optimizer='Adam', use_cpu=False)
+2024-04-17 09:39:34,390 - Model - INFO - Load dataset ...
+2024-04-17 09:39:44,725 - Model - INFO - No existing model, starting training from scratch...
+2024-04-17 09:39:44,726 - Model - INFO - Start training...
+2024-04-17 09:39:44,726 - Model - INFO - Epoch 1 (1/200):
+2024-04-17 09:41:39,538 - Model - INFO - PARAMETER ...
+2024-04-17 09:41:39,538 - Model - INFO - Namespace(batch_size=24, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_cls_msg_scanobjectnn_ip3d', model='pointnet2_cls_msg_ip3d', num_category=15, num_point=2048, optimizer='Adam', use_cpu=False)
+2024-04-17 09:41:39,538 - Model - INFO - Load dataset ...
+2024-04-17 09:41:43,219 - Model - INFO - No existing model, starting training from scratch...
+2024-04-17 09:41:43,219 - Model - INFO - Start training...
+2024-04-17 09:41:43,219 - Model - INFO - Epoch 1 (1/200):
+2024-04-17 09:42:25,978 - Model - INFO - PARAMETER ...
+2024-04-17 09:42:25,979 - Model - INFO - Namespace(batch_size=24, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_cls_msg_scanobjectnn_ip3d', model='pointnet2_cls_msg_ip3d', num_category=15, num_point=2048, optimizer='Adam', use_cpu=False)
+2024-04-17 09:42:25,979 - Model - INFO - Load dataset ...
+2024-04-17 09:42:29,727 - Model - INFO - No existing model, starting training from scratch...
+2024-04-17 09:42:29,727 - Model - INFO - Start training...
+2024-04-17 09:42:29,727 - Model - INFO - Epoch 1 (1/200):
+2024-04-17 09:47:17,397 - Model - INFO - Train OA: 39.684211
+2024-04-17 09:47:46,688 - Model - INFO - Test OA: 39.486468, mAcc: 32.236518
+2024-04-17 09:47:46,688 - Model - INFO - Best OA: 39.486468, mAcc: 32.236518
+2024-04-17 09:47:46,688 - Model - INFO - Save model...
+2024-04-17 09:47:46,688 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 09:47:46,938 - Model - INFO - Epoch 2 (2/200):
+2024-04-17 09:52:35,368 - Model - INFO - Train OA: 57.070175
+2024-04-17 09:53:04,686 - Model - INFO - Test OA: 50.104094, mAcc: 43.392152
+2024-04-17 09:53:04,686 - Model - INFO - Best OA: 50.104094, mAcc: 43.392152
+2024-04-17 09:53:04,686 - Model - INFO - Save model...
+2024-04-17 09:53:04,687 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 09:53:04,817 - Model - INFO - Epoch 3 (3/200):
+2024-04-17 09:57:54,501 - Model - INFO - Train OA: 63.535088
+2024-04-17 09:58:23,795 - Model - INFO - Test OA: 63.879251, mAcc: 56.691626
+2024-04-17 09:58:23,795 - Model - INFO - Best OA: 63.879251, mAcc: 56.691626
+2024-04-17 09:58:23,795 - Model - INFO - Save model...
+2024-04-17 09:58:23,795 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 09:58:23,892 - Model - INFO - Epoch 4 (4/200):
+2024-04-17 10:03:11,342 - Model - INFO - Train OA: 67.938596
+2024-04-17 10:03:40,028 - Model - INFO - Test OA: 63.011797, mAcc: 55.290383
+2024-04-17 10:03:40,028 - Model - INFO - Best OA: 63.879251, mAcc: 56.691626
+2024-04-17 10:03:40,029 - Model - INFO - Epoch 5 (5/200):
+2024-04-17 10:08:30,131 - Model - INFO - Train OA: 70.140351
+2024-04-17 10:08:58,855 - Model - INFO - Test OA: 64.330326, mAcc: 56.912892
+2024-04-17 10:08:58,855 - Model - INFO - Best OA: 64.330326, mAcc: 56.912892
+2024-04-17 10:08:58,855 - Model - INFO - Save model...
+2024-04-17 10:08:58,855 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 10:08:58,947 - Model - INFO - Epoch 6 (6/200):
+2024-04-17 10:13:48,422 - Model - INFO - Train OA: 72.543860
+2024-04-17 10:14:18,037 - Model - INFO - Test OA: 69.083969, mAcc: 64.968891
+2024-04-17 10:14:18,037 - Model - INFO - Best OA: 69.083969, mAcc: 64.968891
+2024-04-17 10:14:18,037 - Model - INFO - Save model...
+2024-04-17 10:14:18,037 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 10:14:18,122 - Model - INFO - Epoch 7 (7/200):
+2024-04-17 10:19:09,862 - Model - INFO - Train OA: 74.780702
+2024-04-17 10:19:38,926 - Model - INFO - Test OA: 68.494101, mAcc: 62.907526
+2024-04-17 10:19:38,926 - Model - INFO - Best OA: 69.083969, mAcc: 64.968891
+2024-04-17 10:19:38,926 - Model - INFO - Epoch 8 (8/200):
+2024-04-17 10:24:26,963 - Model - INFO - Train OA: 76.482456
+2024-04-17 10:24:56,058 - Model - INFO - Test OA: 68.494101, mAcc: 63.762926
+2024-04-17 10:24:56,058 - Model - INFO - Best OA: 69.083969, mAcc: 64.968891
+2024-04-17 10:24:56,058 - Model - INFO - Epoch 9 (9/200):
+2024-04-17 10:29:48,080 - Model - INFO - Train OA: 77.000000
+2024-04-17 10:30:16,963 - Model - INFO - Test OA: 72.727273, mAcc: 68.236625
+2024-04-17 10:30:16,963 - Model - INFO - Best OA: 72.727273, mAcc: 68.236625
+2024-04-17 10:30:16,963 - Model - INFO - Save model...
+2024-04-17 10:30:16,963 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 10:30:17,047 - Model - INFO - Epoch 10 (10/200):
+2024-04-17 10:35:08,172 - Model - INFO - Train OA: 78.561404
+2024-04-17 10:35:37,094 - Model - INFO - Test OA: 71.200555, mAcc: 67.777622
+2024-04-17 10:35:37,094 - Model - INFO - Best OA: 72.727273, mAcc: 68.236625
+2024-04-17 10:35:37,094 - Model - INFO - Epoch 11 (11/200):
+2024-04-17 10:40:26,420 - Model - INFO - Train OA: 79.429825
+2024-04-17 10:40:55,571 - Model - INFO - Test OA: 70.367800, mAcc: 67.980067
+2024-04-17 10:40:55,571 - Model - INFO - Best OA: 72.727273, mAcc: 68.236625
+2024-04-17 10:40:55,571 - Model - INFO - Epoch 12 (12/200):
+2024-04-17 10:45:50,152 - Model - INFO - Train OA: 80.622807
+2024-04-17 10:46:19,125 - Model - INFO - Test OA: 73.455933, mAcc: 70.916972
+2024-04-17 10:46:19,126 - Model - INFO - Best OA: 73.455933, mAcc: 70.916972
+2024-04-17 10:46:19,126 - Model - INFO - Save model...
+2024-04-17 10:46:19,126 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 10:46:19,234 - Model - INFO - Epoch 13 (13/200):
+2024-04-17 10:51:10,803 - Model - INFO - Train OA: 81.482456
+2024-04-17 10:51:40,269 - Model - INFO - Test OA: 69.222762, mAcc: 63.037904
+2024-04-17 10:51:40,269 - Model - INFO - Best OA: 73.455933, mAcc: 70.916972
+2024-04-17 10:51:40,269 - Model - INFO - Epoch 14 (14/200):
+2024-04-17 10:56:30,184 - Model - INFO - Train OA: 82.008772
+2024-04-17 10:56:59,165 - Model - INFO - Test OA: 72.657876, mAcc: 67.096160
+2024-04-17 10:56:59,165 - Model - INFO - Best OA: 73.455933, mAcc: 70.916972
+2024-04-17 10:56:59,165 - Model - INFO - Epoch 15 (15/200):
+2024-04-17 11:01:50,598 - Model - INFO - Train OA: 83.122807
+2024-04-17 11:02:19,906 - Model - INFO - Test OA: 72.796669, mAcc: 69.920224
+2024-04-17 11:02:19,906 - Model - INFO - Best OA: 73.455933, mAcc: 70.916972
+2024-04-17 11:02:19,907 - Model - INFO - Epoch 16 (16/200):
+2024-04-17 11:07:10,971 - Model - INFO - Train OA: 83.745614
+2024-04-17 11:07:39,847 - Model - INFO - Test OA: 75.399028, mAcc: 73.169148
+2024-04-17 11:07:39,848 - Model - INFO - Best OA: 75.399028, mAcc: 73.169148
+2024-04-17 11:07:39,848 - Model - INFO - Save model...
+2024-04-17 11:07:39,848 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 11:07:39,947 - Model - INFO - Epoch 17 (17/200):
+2024-04-17 11:12:32,947 - Model - INFO - Train OA: 84.026316
+2024-04-17 11:13:01,715 - Model - INFO - Test OA: 75.954198, mAcc: 71.423520
+2024-04-17 11:13:01,716 - Model - INFO - Best OA: 75.954198, mAcc: 73.169148
+2024-04-17 11:13:01,716 - Model - INFO - Save model...
+2024-04-17 11:13:01,716 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 11:13:01,809 - Model - INFO - Epoch 18 (18/200):
+2024-04-17 11:17:52,070 - Model - INFO - Train OA: 84.912281
+2024-04-17 11:18:21,431 - Model - INFO - Test OA: 73.872311, mAcc: 68.203720
+2024-04-17 11:18:21,431 - Model - INFO - Best OA: 75.954198, mAcc: 73.169148
+2024-04-17 11:18:21,431 - Model - INFO - Epoch 19 (19/200):
+2024-04-17 11:23:11,734 - Model - INFO - Train OA: 85.254386
+2024-04-17 11:23:40,976 - Model - INFO - Test OA: 68.390007, mAcc: 66.350534
+2024-04-17 11:23:40,976 - Model - INFO - Best OA: 75.954198, mAcc: 73.169148
+2024-04-17 11:23:40,976 - Model - INFO - Epoch 20 (20/200):
+2024-04-17 11:28:31,806 - Model - INFO - Train OA: 84.991228
+2024-04-17 11:29:00,809 - Model - INFO - Test OA: 73.976405, mAcc: 69.897153
+2024-04-17 11:29:00,810 - Model - INFO - Best OA: 75.954198, mAcc: 73.169148
+2024-04-17 11:29:00,810 - Model - INFO - Epoch 21 (21/200):
+2024-04-17 11:33:50,094 - Model - INFO - Train OA: 88.157895
+2024-04-17 11:34:19,442 - Model - INFO - Test OA: 75.433727, mAcc: 71.902189
+2024-04-17 11:34:19,442 - Model - INFO - Best OA: 75.954198, mAcc: 73.169148
+2024-04-17 11:34:19,442 - Model - INFO - Epoch 22 (22/200):
+2024-04-17 11:39:11,040 - Model - INFO - Train OA: 88.780702
+2024-04-17 11:39:39,763 - Model - INFO - Test OA: 76.405274, mAcc: 73.243754
+2024-04-17 11:39:39,763 - Model - INFO - Best OA: 76.405274, mAcc: 73.243754
+2024-04-17 11:39:39,763 - Model - INFO - Save model...
+2024-04-17 11:39:39,763 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 11:39:39,937 - Model - INFO - Epoch 23 (23/200):
+2024-04-17 11:44:28,125 - Model - INFO - Train OA: 89.035088
+2024-04-17 11:44:56,832 - Model - INFO - Test OA: 75.017349, mAcc: 72.276767
+2024-04-17 11:44:56,832 - Model - INFO - Best OA: 76.405274, mAcc: 73.243754
+2024-04-17 11:44:56,832 - Model - INFO - Epoch 24 (24/200):
+2024-04-17 11:49:47,055 - Model - INFO - Train OA: 89.096491
+2024-04-17 11:50:16,165 - Model - INFO - Test OA: 75.746010, mAcc: 71.457135
+2024-04-17 11:50:16,165 - Model - INFO - Best OA: 76.405274, mAcc: 73.243754
+2024-04-17 11:50:16,165 - Model - INFO - Epoch 25 (25/200):
+2024-04-17 11:55:04,468 - Model - INFO - Train OA: 89.754386
+2024-04-17 11:55:33,147 - Model - INFO - Test OA: 75.468425, mAcc: 71.905025
+2024-04-17 11:55:33,147 - Model - INFO - Best OA: 76.405274, mAcc: 73.243754
+2024-04-17 11:55:33,147 - Model - INFO - Epoch 26 (26/200):
+2024-04-17 12:00:22,323 - Model - INFO - Train OA: 90.236842
+2024-04-17 12:00:51,173 - Model - INFO - Test OA: 73.664122, mAcc: 72.734955
+2024-04-17 12:00:51,174 - Model - INFO - Best OA: 76.405274, mAcc: 73.243754
+2024-04-17 12:00:51,174 - Model - INFO - Epoch 27 (27/200):
+2024-04-17 12:05:42,138 - Model - INFO - Train OA: 89.991228
+2024-04-17 12:06:11,454 - Model - INFO - Test OA: 75.607217, mAcc: 74.374795
+2024-04-17 12:06:11,454 - Model - INFO - Best OA: 76.405274, mAcc: 74.374795
+2024-04-17 12:06:11,454 - Model - INFO - Epoch 28 (28/200):
+2024-04-17 12:11:01,226 - Model - INFO - Train OA: 90.307018
+2024-04-17 12:11:29,956 - Model - INFO - Test OA: 75.156142, mAcc: 71.971270
+2024-04-17 12:11:29,956 - Model - INFO - Best OA: 76.405274, mAcc: 74.374795
+2024-04-17 12:11:29,956 - Model - INFO - Epoch 29 (29/200):
+2024-04-17 12:16:21,059 - Model - INFO - Train OA: 90.271930
+2024-04-17 12:16:50,139 - Model - INFO - Test OA: 74.600972, mAcc: 70.423575
+2024-04-17 12:16:50,139 - Model - INFO - Best OA: 76.405274, mAcc: 74.374795
+2024-04-17 12:16:50,139 - Model - INFO - Epoch 30 (30/200):
+2024-04-17 12:21:39,860 - Model - INFO - Train OA: 90.614035
+2024-04-17 12:22:08,582 - Model - INFO - Test OA: 75.711312, mAcc: 71.499009
+2024-04-17 12:22:08,582 - Model - INFO - Best OA: 76.405274, mAcc: 74.374795
+2024-04-17 12:22:08,582 - Model - INFO - Epoch 31 (31/200):
+2024-04-17 12:26:59,695 - Model - INFO - Train OA: 91.140351
+2024-04-17 12:27:28,448 - Model - INFO - Test OA: 73.039556, mAcc: 69.832909
+2024-04-17 12:27:28,448 - Model - INFO - Best OA: 76.405274, mAcc: 74.374795
+2024-04-17 12:27:28,448 - Model - INFO - Epoch 32 (32/200):
+2024-04-17 12:32:17,291 - Model - INFO - Train OA: 90.587719
+2024-04-17 12:32:45,967 - Model - INFO - Test OA: 75.225538, mAcc: 71.012222
+2024-04-17 12:32:45,967 - Model - INFO - Best OA: 76.405274, mAcc: 74.374795
+2024-04-17 12:32:45,967 - Model - INFO - Epoch 33 (33/200):
+2024-04-17 12:37:36,755 - Model - INFO - Train OA: 90.956140
+2024-04-17 12:38:05,501 - Model - INFO - Test OA: 74.253990, mAcc: 70.102169
+2024-04-17 12:38:05,501 - Model - INFO - Best OA: 76.405274, mAcc: 74.374795
+2024-04-17 12:38:05,501 - Model - INFO - Epoch 34 (34/200):
+2024-04-17 12:42:54,569 - Model - INFO - Train OA: 91.745614
+2024-04-17 12:43:23,816 - Model - INFO - Test OA: 76.717557, mAcc: 74.115648
+2024-04-17 12:43:23,816 - Model - INFO - Best OA: 76.717557, mAcc: 74.374795
+2024-04-17 12:43:23,816 - Model - INFO - Save model...
+2024-04-17 12:43:23,816 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 12:43:23,901 - Model - INFO - Epoch 35 (35/200):
+2024-04-17 12:48:11,683 - Model - INFO - Train OA: 91.219298
+2024-04-17 12:48:40,446 - Model - INFO - Test OA: 75.433727, mAcc: 72.371624
+2024-04-17 12:48:40,446 - Model - INFO - Best OA: 76.717557, mAcc: 74.374795
+2024-04-17 12:48:40,446 - Model - INFO - Epoch 36 (36/200):
+2024-04-17 12:53:30,788 - Model - INFO - Train OA: 91.517544
+2024-04-17 12:54:00,049 - Model - INFO - Test OA: 76.717557, mAcc: 73.667396
+2024-04-17 12:54:00,049 - Model - INFO - Best OA: 76.717557, mAcc: 74.374795
+2024-04-17 12:54:00,049 - Model - INFO - Save model...
+2024-04-17 12:54:00,049 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 12:54:00,166 - Model - INFO - Epoch 37 (37/200):
+2024-04-17 12:58:47,863 - Model - INFO - Train OA: 91.561404
+2024-04-17 12:59:16,850 - Model - INFO - Test OA: 74.913255, mAcc: 71.485549
+2024-04-17 12:59:16,850 - Model - INFO - Best OA: 76.717557, mAcc: 74.374795
+2024-04-17 12:59:16,850 - Model - INFO - Epoch 38 (38/200):
+2024-04-17 13:04:05,309 - Model - INFO - Train OA: 91.675439
+2024-04-17 13:04:34,015 - Model - INFO - Test OA: 77.203331, mAcc: 72.708439
+2024-04-17 13:04:34,015 - Model - INFO - Best OA: 77.203331, mAcc: 74.374795
+2024-04-17 13:04:34,015 - Model - INFO - Save model...
+2024-04-17 13:04:34,015 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 13:04:34,104 - Model - INFO - Epoch 39 (39/200):
+2024-04-17 13:09:22,564 - Model - INFO - Train OA: 91.701754
+2024-04-17 13:09:51,729 - Model - INFO - Test OA: 74.496877, mAcc: 72.581405
+2024-04-17 13:09:51,729 - Model - INFO - Best OA: 77.203331, mAcc: 74.374795
+2024-04-17 13:09:51,730 - Model - INFO - Epoch 40 (40/200):
+2024-04-17 13:14:39,328 - Model - INFO - Train OA: 91.289474
+2024-04-17 13:15:07,988 - Model - INFO - Test OA: 76.023595, mAcc: 73.591676
+2024-04-17 13:15:07,988 - Model - INFO - Best OA: 77.203331, mAcc: 74.374795
+2024-04-17 13:15:07,988 - Model - INFO - Epoch 41 (41/200):
+2024-04-17 13:19:57,672 - Model - INFO - Train OA: 93.421053
+2024-04-17 13:20:26,364 - Model - INFO - Test OA: 77.376822, mAcc: 74.747676
+2024-04-17 13:20:26,364 - Model - INFO - Best OA: 77.376822, mAcc: 74.747676
+2024-04-17 13:20:26,364 - Model - INFO - Save model...
+2024-04-17 13:20:26,364 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 13:20:26,454 - Model - INFO - Epoch 42 (42/200):
+2024-04-17 13:25:14,993 - Model - INFO - Train OA: 93.763158
+2024-04-17 13:25:44,492 - Model - INFO - Test OA: 77.446218, mAcc: 74.108956
+2024-04-17 13:25:44,492 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 13:25:44,492 - Model - INFO - Save model...
+2024-04-17 13:25:44,492 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 13:25:44,589 - Model - INFO - Epoch 43 (43/200):
+2024-04-17 13:30:33,070 - Model - INFO - Train OA: 93.561404
+2024-04-17 13:31:02,185 - Model - INFO - Test OA: 77.029840, mAcc: 74.090845
+2024-04-17 13:31:02,185 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 13:31:02,185 - Model - INFO - Epoch 44 (44/200):
+2024-04-17 13:35:49,728 - Model - INFO - Train OA: 93.780702
+2024-04-17 13:36:18,751 - Model - INFO - Test OA: 77.376822, mAcc: 74.688412
+2024-04-17 13:36:18,751 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 13:36:18,751 - Model - INFO - Epoch 45 (45/200):
+2024-04-17 13:41:06,946 - Model - INFO - Train OA: 93.631579
+2024-04-17 13:41:35,684 - Model - INFO - Test OA: 76.821652, mAcc: 72.969320
+2024-04-17 13:41:35,684 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 13:41:35,684 - Model - INFO - Epoch 46 (46/200):
+2024-04-17 13:46:23,481 - Model - INFO - Train OA: 93.719298
+2024-04-17 13:46:52,487 - Model - INFO - Test OA: 76.578765, mAcc: 73.232099
+2024-04-17 13:46:52,487 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 13:46:52,487 - Model - INFO - Epoch 47 (47/200):
+2024-04-17 13:51:43,144 - Model - INFO - Train OA: 93.403509
+2024-04-17 13:52:11,759 - Model - INFO - Test OA: 76.509368, mAcc: 72.710249
+2024-04-17 13:52:11,759 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 13:52:11,759 - Model - INFO - Epoch 48 (48/200):
+2024-04-17 13:57:00,067 - Model - INFO - Train OA: 93.701754
+2024-04-17 13:57:28,884 - Model - INFO - Test OA: 77.029840, mAcc: 73.649386
+2024-04-17 13:57:28,884 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 13:57:28,885 - Model - INFO - Epoch 49 (49/200):
+2024-04-17 14:02:17,124 - Model - INFO - Train OA: 93.982456
+2024-04-17 14:02:45,780 - Model - INFO - Test OA: 75.433727, mAcc: 71.315439
+2024-04-17 14:02:45,780 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 14:02:45,780 - Model - INFO - Epoch 50 (50/200):
+2024-04-17 14:07:37,306 - Model - INFO - Train OA: 94.464912
+2024-04-17 14:08:06,007 - Model - INFO - Test OA: 75.399028, mAcc: 70.952132
+2024-04-17 14:08:06,007 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 14:08:06,007 - Model - INFO - Epoch 51 (51/200):
+2024-04-17 14:12:58,312 - Model - INFO - Train OA: 94.052632
+2024-04-17 14:13:27,458 - Model - INFO - Test OA: 77.342124, mAcc: 73.459000
+2024-04-17 14:13:27,458 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 14:13:27,458 - Model - INFO - Epoch 52 (52/200):
+2024-04-17 14:18:14,814 - Model - INFO - Train OA: 94.017544
+2024-04-17 14:18:43,582 - Model - INFO - Test OA: 76.613463, mAcc: 74.047906
+2024-04-17 14:18:43,582 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 14:18:43,582 - Model - INFO - Epoch 53 (53/200):
+2024-04-17 14:23:31,164 - Model - INFO - Train OA: 94.096491
+2024-04-17 14:24:00,299 - Model - INFO - Test OA: 77.168633, mAcc: 73.662357
+2024-04-17 14:24:00,299 - Model - INFO - Best OA: 77.446218, mAcc: 74.747676
+2024-04-17 14:24:00,299 - Model - INFO - Epoch 54 (54/200):
+2024-04-17 14:28:50,910 - Model - INFO - Train OA: 94.342105
+2024-04-17 14:29:19,617 - Model - INFO - Test OA: 77.689105, mAcc: 74.155000
+2024-04-17 14:29:19,617 - Model - INFO - Best OA: 77.689105, mAcc: 74.747676
+2024-04-17 14:29:19,617 - Model - INFO - Save model...
+2024-04-17 14:29:19,617 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 14:29:19,724 - Model - INFO - Epoch 55 (55/200):
+2024-04-17 14:34:07,585 - Model - INFO - Train OA: 93.912281
+2024-04-17 14:34:36,632 - Model - INFO - Test OA: 77.446218, mAcc: 73.238210
+2024-04-17 14:34:36,632 - Model - INFO - Best OA: 77.689105, mAcc: 74.747676
+2024-04-17 14:34:36,632 - Model - INFO - Epoch 56 (56/200):
+2024-04-17 14:39:27,101 - Model - INFO - Train OA: 94.157895
+2024-04-17 14:39:56,408 - Model - INFO - Test OA: 78.140180, mAcc: 74.831003
+2024-04-17 14:39:56,408 - Model - INFO - Best OA: 78.140180, mAcc: 74.831003
+2024-04-17 14:39:56,409 - Model - INFO - Save model...
+2024-04-17 14:39:56,409 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 14:39:56,494 - Model - INFO - Epoch 57 (57/200):
+2024-04-17 14:44:47,948 - Model - INFO - Train OA: 94.447368
+2024-04-17 14:45:17,228 - Model - INFO - Test OA: 76.197085, mAcc: 72.365438
+2024-04-17 14:45:17,229 - Model - INFO - Best OA: 78.140180, mAcc: 74.831003
+2024-04-17 14:45:17,229 - Model - INFO - Epoch 58 (58/200):
+2024-04-17 14:50:05,150 - Model - INFO - Train OA: 93.605263
+2024-04-17 14:50:34,265 - Model - INFO - Test OA: 76.613463, mAcc: 73.710767
+2024-04-17 14:50:34,265 - Model - INFO - Best OA: 78.140180, mAcc: 74.831003
+2024-04-17 14:50:34,266 - Model - INFO - Epoch 59 (59/200):
+2024-04-17 14:55:24,880 - Model - INFO - Train OA: 94.201754
+2024-04-17 14:55:54,110 - Model - INFO - Test OA: 76.682859, mAcc: 73.727046
+2024-04-17 14:55:54,110 - Model - INFO - Best OA: 78.140180, mAcc: 74.831003
+2024-04-17 14:55:54,110 - Model - INFO - Epoch 60 (60/200):
+2024-04-17 15:00:43,025 - Model - INFO - Train OA: 94.833333
+2024-04-17 15:01:12,391 - Model - INFO - Test OA: 77.168633, mAcc: 73.652832
+2024-04-17 15:01:12,391 - Model - INFO - Best OA: 78.140180, mAcc: 74.831003
+2024-04-17 15:01:12,391 - Model - INFO - Epoch 61 (61/200):
+2024-04-17 15:06:02,225 - Model - INFO - Train OA: 94.903509
+2024-04-17 15:06:31,546 - Model - INFO - Test OA: 77.411520, mAcc: 74.890160
+2024-04-17 15:06:31,546 - Model - INFO - Best OA: 78.140180, mAcc: 74.890160
+2024-04-17 15:06:31,546 - Model - INFO - Epoch 62 (62/200):
+2024-04-17 15:11:21,726 - Model - INFO - Train OA: 95.500000
+2024-04-17 15:11:50,733 - Model - INFO - Test OA: 77.758501, mAcc: 74.600482
+2024-04-17 15:11:50,733 - Model - INFO - Best OA: 78.140180, mAcc: 74.890160
+2024-04-17 15:11:50,733 - Model - INFO - Epoch 63 (63/200):
+2024-04-17 15:16:41,299 - Model - INFO - Train OA: 95.122807
+2024-04-17 15:17:10,573 - Model - INFO - Test OA: 75.537821, mAcc: 73.637259
+2024-04-17 15:17:10,573 - Model - INFO - Best OA: 78.140180, mAcc: 74.890160
+2024-04-17 15:17:10,573 - Model - INFO - Epoch 64 (64/200):
+2024-04-17 15:22:01,525 - Model - INFO - Train OA: 95.692982
+2024-04-17 15:22:30,208 - Model - INFO - Test OA: 77.585010, mAcc: 75.630541
+2024-04-17 15:22:30,208 - Model - INFO - Best OA: 78.140180, mAcc: 75.630541
+2024-04-17 15:22:30,208 - Model - INFO - Epoch 65 (65/200):
+2024-04-17 15:27:18,136 - Model - INFO - Train OA: 95.394737
+2024-04-17 15:27:47,236 - Model - INFO - Test OA: 76.891048, mAcc: 73.289092
+2024-04-17 15:27:47,236 - Model - INFO - Best OA: 78.140180, mAcc: 75.630541
+2024-04-17 15:27:47,236 - Model - INFO - Epoch 66 (66/200):
+2024-04-17 15:32:38,338 - Model - INFO - Train OA: 95.710526
+2024-04-17 15:33:07,082 - Model - INFO - Test OA: 78.556558, mAcc: 75.645005
+2024-04-17 15:33:07,082 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 15:33:07,082 - Model - INFO - Save model...
+2024-04-17 15:33:07,082 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 15:33:07,177 - Model - INFO - Epoch 67 (67/200):
+2024-04-17 15:37:56,291 - Model - INFO - Train OA: 95.245614
+2024-04-17 15:38:25,042 - Model - INFO - Test OA: 77.827897, mAcc: 74.741284
+2024-04-17 15:38:25,042 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 15:38:25,042 - Model - INFO - Epoch 68 (68/200):
+2024-04-17 15:43:15,860 - Model - INFO - Train OA: 96.184211
+2024-04-17 15:43:45,137 - Model - INFO - Test OA: 77.376822, mAcc: 74.679255
+2024-04-17 15:43:45,137 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 15:43:45,137 - Model - INFO - Epoch 69 (69/200):
+2024-04-17 15:48:37,749 - Model - INFO - Train OA: 95.719298
+2024-04-17 15:49:06,475 - Model - INFO - Test OA: 77.897294, mAcc: 74.695915
+2024-04-17 15:49:06,475 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 15:49:06,475 - Model - INFO - Epoch 70 (70/200):
+2024-04-17 15:53:54,377 - Model - INFO - Train OA: 96.192982
+2024-04-17 15:54:23,464 - Model - INFO - Test OA: 78.209577, mAcc: 75.584695
+2024-04-17 15:54:23,464 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 15:54:23,464 - Model - INFO - Epoch 71 (71/200):
+2024-04-17 15:59:14,984 - Model - INFO - Train OA: 95.675439
+2024-04-17 15:59:43,633 - Model - INFO - Test OA: 77.931992, mAcc: 75.390197
+2024-04-17 15:59:43,634 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 15:59:43,634 - Model - INFO - Epoch 72 (72/200):
+2024-04-17 16:04:32,576 - Model - INFO - Train OA: 96.280702
+2024-04-17 16:05:01,305 - Model - INFO - Test OA: 77.758501, mAcc: 74.118357
+2024-04-17 16:05:01,305 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 16:05:01,305 - Model - INFO - Epoch 73 (73/200):
+2024-04-17 16:09:51,985 - Model - INFO - Train OA: 95.684211
+2024-04-17 16:10:21,304 - Model - INFO - Test OA: 77.931992, mAcc: 75.209535
+2024-04-17 16:10:21,304 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 16:10:21,304 - Model - INFO - Epoch 74 (74/200):
+2024-04-17 16:15:10,110 - Model - INFO - Train OA: 95.359649
+2024-04-17 16:15:38,776 - Model - INFO - Test OA: 77.168633, mAcc: 74.522679
+2024-04-17 16:15:38,776 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 16:15:38,776 - Model - INFO - Epoch 75 (75/200):
+2024-04-17 16:20:26,944 - Model - INFO - Train OA: 96.000000
+2024-04-17 16:20:56,018 - Model - INFO - Test OA: 76.648161, mAcc: 73.425064
+2024-04-17 16:20:56,018 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 16:20:56,018 - Model - INFO - Epoch 76 (76/200):
+2024-04-17 16:25:46,752 - Model - INFO - Train OA: 95.929825
+2024-04-17 16:26:15,511 - Model - INFO - Test OA: 76.752255, mAcc: 74.135115
+2024-04-17 16:26:15,511 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 16:26:15,511 - Model - INFO - Epoch 77 (77/200):
+2024-04-17 16:31:03,560 - Model - INFO - Train OA: 95.298246
+2024-04-17 16:31:32,615 - Model - INFO - Test OA: 78.070784, mAcc: 74.921442
+2024-04-17 16:31:32,615 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 16:31:32,615 - Model - INFO - Epoch 78 (78/200):
+2024-04-17 16:36:21,130 - Model - INFO - Train OA: 95.701754
+2024-04-17 16:36:50,415 - Model - INFO - Test OA: 77.446218, mAcc: 74.601605
+2024-04-17 16:36:50,416 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 16:36:50,416 - Model - INFO - Epoch 79 (79/200):
+2024-04-17 16:41:41,742 - Model - INFO - Train OA: 95.850877
+2024-04-17 16:42:10,391 - Model - INFO - Test OA: 77.029840, mAcc: 73.721543
+2024-04-17 16:42:10,391 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 16:42:10,391 - Model - INFO - Epoch 80 (80/200):
+2024-04-17 16:47:00,335 - Model - INFO - Train OA: 95.666667
+2024-04-17 16:47:29,100 - Model - INFO - Test OA: 76.682859, mAcc: 72.899542
+2024-04-17 16:47:29,100 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 16:47:29,100 - Model - INFO - Epoch 81 (81/200):
+2024-04-17 16:52:16,704 - Model - INFO - Train OA: 96.464912
+2024-04-17 16:52:45,428 - Model - INFO - Test OA: 77.307425, mAcc: 74.697433
+2024-04-17 16:52:45,428 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 16:52:45,428 - Model - INFO - Epoch 82 (82/200):
+2024-04-17 16:57:34,307 - Model - INFO - Train OA: 96.798246
+2024-04-17 16:58:03,609 - Model - INFO - Test OA: 78.487162, mAcc: 75.570285
+2024-04-17 16:58:03,609 - Model - INFO - Best OA: 78.556558, mAcc: 75.645005
+2024-04-17 16:58:03,609 - Model - INFO - Epoch 83 (83/200):
+2024-04-17 17:02:53,530 - Model - INFO - Train OA: 96.973684
+2024-04-17 17:03:22,624 - Model - INFO - Test OA: 78.487162, mAcc: 75.792364
+2024-04-17 17:03:22,624 - Model - INFO - Best OA: 78.556558, mAcc: 75.792364
+2024-04-17 17:03:22,624 - Model - INFO - Epoch 84 (84/200):
+2024-04-17 17:08:12,915 - Model - INFO - Train OA: 96.342105
+2024-04-17 17:08:41,513 - Model - INFO - Test OA: 77.931992, mAcc: 74.793094
+2024-04-17 17:08:41,513 - Model - INFO - Best OA: 78.556558, mAcc: 75.792364
+2024-04-17 17:08:41,513 - Model - INFO - Epoch 85 (85/200):
+2024-04-17 17:13:29,371 - Model - INFO - Train OA: 96.692982
+2024-04-17 17:13:58,106 - Model - INFO - Test OA: 78.140180, mAcc: 75.249250
+2024-04-17 17:13:58,106 - Model - INFO - Best OA: 78.556558, mAcc: 75.792364
+2024-04-17 17:13:58,106 - Model - INFO - Epoch 86 (86/200):
+2024-04-17 17:18:48,004 - Model - INFO - Train OA: 96.850877
+2024-04-17 17:19:17,064 - Model - INFO - Test OA: 77.897294, mAcc: 74.716448
+2024-04-17 17:19:17,064 - Model - INFO - Best OA: 78.556558, mAcc: 75.792364
+2024-04-17 17:19:17,064 - Model - INFO - Epoch 87 (87/200):
+2024-04-17 17:24:07,013 - Model - INFO - Train OA: 96.456140
+2024-04-17 17:24:35,734 - Model - INFO - Test OA: 77.550312, mAcc: 74.034532
+2024-04-17 17:24:35,734 - Model - INFO - Best OA: 78.556558, mAcc: 75.792364
+2024-04-17 17:24:35,735 - Model - INFO - Epoch 88 (88/200):
+2024-04-17 17:29:26,821 - Model - INFO - Train OA: 96.701754
+2024-04-17 17:29:55,876 - Model - INFO - Test OA: 77.376822, mAcc: 74.198973
+2024-04-17 17:29:55,876 - Model - INFO - Best OA: 78.556558, mAcc: 75.792364
+2024-04-17 17:29:55,876 - Model - INFO - Epoch 89 (89/200):
+2024-04-17 17:34:44,034 - Model - INFO - Train OA: 96.798246
+2024-04-17 17:35:13,358 - Model - INFO - Test OA: 77.654407, mAcc: 74.710236
+2024-04-17 17:35:13,359 - Model - INFO - Best OA: 78.556558, mAcc: 75.792364
+2024-04-17 17:35:13,359 - Model - INFO - Epoch 90 (90/200):
+2024-04-17 17:40:02,340 - Model - INFO - Train OA: 96.894737
+2024-04-17 17:40:31,029 - Model - INFO - Test OA: 77.307425, mAcc: 74.503364
+2024-04-17 17:40:31,029 - Model - INFO - Best OA: 78.556558, mAcc: 75.792364
+2024-04-17 17:40:31,029 - Model - INFO - Epoch 91 (91/200):
+2024-04-17 17:45:19,996 - Model - INFO - Train OA: 97.000000
+2024-04-17 17:45:48,679 - Model - INFO - Test OA: 77.758501, mAcc: 74.343027
+2024-04-17 17:45:48,679 - Model - INFO - Best OA: 78.556558, mAcc: 75.792364
+2024-04-17 17:45:48,679 - Model - INFO - Epoch 92 (92/200):
+2024-04-17 17:50:37,886 - Model - INFO - Train OA: 96.692982
+2024-04-17 17:51:06,684 - Model - INFO - Test OA: 78.625954, mAcc: 75.665366
+2024-04-17 17:51:06,684 - Model - INFO - Best OA: 78.625954, mAcc: 75.792364
+2024-04-17 17:51:06,684 - Model - INFO - Save model...
+2024-04-17 17:51:06,684 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 17:51:06,777 - Model - INFO - Epoch 93 (93/200):
+2024-04-17 17:55:55,231 - Model - INFO - Train OA: 96.763158
+2024-04-17 17:56:24,184 - Model - INFO - Test OA: 77.619709, mAcc: 74.764693
+2024-04-17 17:56:24,184 - Model - INFO - Best OA: 78.625954, mAcc: 75.792364
+2024-04-17 17:56:24,184 - Model - INFO - Epoch 94 (94/200):
+2024-04-17 18:01:11,291 - Model - INFO - Train OA: 97.017544
+2024-04-17 18:01:40,320 - Model - INFO - Test OA: 77.342124, mAcc: 74.052442
+2024-04-17 18:01:40,320 - Model - INFO - Best OA: 78.625954, mAcc: 75.792364
+2024-04-17 18:01:40,320 - Model - INFO - Epoch 95 (95/200):
+2024-04-17 18:06:30,197 - Model - INFO - Train OA: 96.622807
+2024-04-17 18:06:59,186 - Model - INFO - Test OA: 78.001388, mAcc: 75.243575
+2024-04-17 18:06:59,186 - Model - INFO - Best OA: 78.625954, mAcc: 75.792364
+2024-04-17 18:06:59,186 - Model - INFO - Epoch 96 (96/200):
+2024-04-17 18:11:46,842 - Model - INFO - Train OA: 96.719298
+2024-04-17 18:12:15,916 - Model - INFO - Test OA: 78.278973, mAcc: 75.396038
+2024-04-17 18:12:15,916 - Model - INFO - Best OA: 78.625954, mAcc: 75.792364
+2024-04-17 18:12:15,916 - Model - INFO - Epoch 97 (97/200):
+2024-04-17 18:17:03,083 - Model - INFO - Train OA: 96.912281
+2024-04-17 18:17:31,755 - Model - INFO - Test OA: 77.793199, mAcc: 74.824896
+2024-04-17 18:17:31,755 - Model - INFO - Best OA: 78.625954, mAcc: 75.792364
+2024-04-17 18:17:31,755 - Model - INFO - Epoch 98 (98/200):
+2024-04-17 18:22:20,861 - Model - INFO - Train OA: 96.842105
+2024-04-17 18:22:49,510 - Model - INFO - Test OA: 77.515614, mAcc: 75.438545
+2024-04-17 18:22:49,510 - Model - INFO - Best OA: 78.625954, mAcc: 75.792364
+2024-04-17 18:22:49,510 - Model - INFO - Epoch 99 (99/200):
+2024-04-17 18:27:38,081 - Model - INFO - Train OA: 96.517544
+2024-04-17 18:28:07,098 - Model - INFO - Test OA: 77.480916, mAcc: 74.561264
+2024-04-17 18:28:07,098 - Model - INFO - Best OA: 78.625954, mAcc: 75.792364
+2024-04-17 18:28:07,098 - Model - INFO - Epoch 100 (100/200):
+2024-04-17 18:32:56,528 - Model - INFO - Train OA: 96.964912
+2024-04-17 18:33:25,638 - Model - INFO - Test OA: 77.758501, mAcc: 74.154038
+2024-04-17 18:33:25,638 - Model - INFO - Best OA: 78.625954, mAcc: 75.792364
+2024-04-17 18:33:25,638 - Model - INFO - Epoch 101 (101/200):
+2024-04-17 18:38:13,516 - Model - INFO - Train OA: 97.263158
+2024-04-17 18:38:42,745 - Model - INFO - Test OA: 77.446218, mAcc: 74.451191
+2024-04-17 18:38:42,745 - Model - INFO - Best OA: 78.625954, mAcc: 75.792364
+2024-04-17 18:38:42,745 - Model - INFO - Epoch 102 (102/200):
+2024-04-17 18:43:30,988 - Model - INFO - Train OA: 97.491228
+2024-04-17 18:43:59,663 - Model - INFO - Test OA: 77.689105, mAcc: 74.969641
+2024-04-17 18:43:59,663 - Model - INFO - Best OA: 78.625954, mAcc: 75.792364
+2024-04-17 18:43:59,663 - Model - INFO - Epoch 103 (103/200):
+2024-04-17 18:48:49,778 - Model - INFO - Train OA: 97.631579
+2024-04-17 18:49:18,475 - Model - INFO - Test OA: 78.591256, mAcc: 76.372131
+2024-04-17 18:49:18,475 - Model - INFO - Best OA: 78.625954, mAcc: 76.372131
+2024-04-17 18:49:18,475 - Model - INFO - Epoch 104 (104/200):
+2024-04-17 18:54:06,054 - Model - INFO - Train OA: 97.438596
+2024-04-17 18:54:35,112 - Model - INFO - Test OA: 77.793199, mAcc: 74.665608
+2024-04-17 18:54:35,112 - Model - INFO - Best OA: 78.625954, mAcc: 76.372131
+2024-04-17 18:54:35,112 - Model - INFO - Epoch 105 (105/200):
+2024-04-17 18:59:27,372 - Model - INFO - Train OA: 97.043860
+2024-04-17 18:59:56,065 - Model - INFO - Test OA: 78.730049, mAcc: 74.998148
+2024-04-17 18:59:56,066 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 18:59:56,066 - Model - INFO - Save model...
+2024-04-17 18:59:56,066 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 18:59:56,321 - Model - INFO - Epoch 106 (106/200):
+2024-04-17 19:04:46,840 - Model - INFO - Train OA: 97.070175
+2024-04-17 19:05:15,555 - Model - INFO - Test OA: 78.140180, mAcc: 75.723567
+2024-04-17 19:05:15,555 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 19:05:15,555 - Model - INFO - Epoch 107 (107/200):
+2024-04-17 19:10:03,298 - Model - INFO - Train OA: 96.894737
+2024-04-17 19:10:31,963 - Model - INFO - Test OA: 77.550312, mAcc: 73.921485
+2024-04-17 19:10:31,963 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 19:10:31,963 - Model - INFO - Epoch 108 (108/200):
+2024-04-17 19:15:24,660 - Model - INFO - Train OA: 97.438596
+2024-04-17 19:15:54,571 - Model - INFO - Test OA: 77.862595, mAcc: 75.363013
+2024-04-17 19:15:54,571 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 19:15:54,572 - Model - INFO - Epoch 109 (109/200):
+2024-04-17 19:20:48,497 - Model - INFO - Train OA: 97.175439
+2024-04-17 19:21:17,630 - Model - INFO - Test OA: 78.452464, mAcc: 75.775452
+2024-04-17 19:21:17,631 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 19:21:17,631 - Model - INFO - Epoch 110 (110/200):
+2024-04-17 19:26:08,124 - Model - INFO - Train OA: 97.245614
+2024-04-17 19:26:37,597 - Model - INFO - Test OA: 77.446218, mAcc: 74.623937
+2024-04-17 19:26:37,597 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 19:26:37,597 - Model - INFO - Epoch 111 (111/200):
+2024-04-17 19:31:29,164 - Model - INFO - Train OA: 97.070175
+2024-04-17 19:31:58,207 - Model - INFO - Test OA: 77.793199, mAcc: 74.697493
+2024-04-17 19:31:58,208 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 19:31:58,208 - Model - INFO - Epoch 112 (112/200):
+2024-04-17 19:36:48,899 - Model - INFO - Train OA: 97.192982
+2024-04-17 19:37:18,373 - Model - INFO - Test OA: 78.070784, mAcc: 75.286205
+2024-04-17 19:37:18,373 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 19:37:18,373 - Model - INFO - Epoch 113 (113/200):
+2024-04-17 19:42:09,660 - Model - INFO - Train OA: 96.877193
+2024-04-17 19:42:38,818 - Model - INFO - Test OA: 77.966690, mAcc: 75.326261
+2024-04-17 19:42:38,818 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 19:42:38,818 - Model - INFO - Epoch 114 (114/200):
+2024-04-17 19:47:30,070 - Model - INFO - Train OA: 97.578947
+2024-04-17 19:47:59,573 - Model - INFO - Test OA: 78.036086, mAcc: 75.374858
+2024-04-17 19:47:59,573 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 19:47:59,573 - Model - INFO - Epoch 115 (115/200):
+2024-04-17 19:52:51,463 - Model - INFO - Train OA: 97.122807
+2024-04-17 19:53:20,573 - Model - INFO - Test OA: 77.758501, mAcc: 74.471450
+2024-04-17 19:53:20,573 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 19:53:20,573 - Model - INFO - Epoch 116 (116/200):
+2024-04-17 19:58:13,545 - Model - INFO - Train OA: 97.631579
+2024-04-17 19:58:43,279 - Model - INFO - Test OA: 77.862595, mAcc: 74.402174
+2024-04-17 19:58:43,280 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 19:58:43,280 - Model - INFO - Epoch 117 (117/200):
+2024-04-17 20:03:37,998 - Model - INFO - Train OA: 97.394737
+2024-04-17 20:04:07,458 - Model - INFO - Test OA: 78.209577, mAcc: 75.421011
+2024-04-17 20:04:07,458 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 20:04:07,458 - Model - INFO - Epoch 118 (118/200):
+2024-04-17 20:09:01,460 - Model - INFO - Train OA: 97.289474
+2024-04-17 20:09:31,218 - Model - INFO - Test OA: 78.452464, mAcc: 75.339520
+2024-04-17 20:09:31,218 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 20:09:31,218 - Model - INFO - Epoch 119 (119/200):
+2024-04-17 20:14:26,320 - Model - INFO - Train OA: 97.350877
+2024-04-17 20:14:55,993 - Model - INFO - Test OA: 78.209577, mAcc: 75.381962
+2024-04-17 20:14:55,993 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 20:14:55,993 - Model - INFO - Epoch 120 (120/200):
+2024-04-17 20:19:48,854 - Model - INFO - Train OA: 97.324561
+2024-04-17 20:20:18,396 - Model - INFO - Test OA: 77.931992, mAcc: 74.981581
+2024-04-17 20:20:18,397 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 20:20:18,397 - Model - INFO - Epoch 121 (121/200):
+2024-04-17 20:25:09,439 - Model - INFO - Train OA: 97.859649
+2024-04-17 20:25:38,618 - Model - INFO - Test OA: 78.348369, mAcc: 75.158364
+2024-04-17 20:25:38,618 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 20:25:38,618 - Model - INFO - Epoch 122 (122/200):
+2024-04-17 20:30:30,412 - Model - INFO - Train OA: 97.728070
+2024-04-17 20:31:00,080 - Model - INFO - Test OA: 78.174879, mAcc: 75.077547
+2024-04-17 20:31:00,080 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 20:31:00,080 - Model - INFO - Epoch 123 (123/200):
+2024-04-17 20:35:51,566 - Model - INFO - Train OA: 97.736842
+2024-04-17 20:36:20,729 - Model - INFO - Test OA: 78.140180, mAcc: 75.012085
+2024-04-17 20:36:20,730 - Model - INFO - Best OA: 78.730049, mAcc: 76.372131
+2024-04-17 20:36:20,730 - Model - INFO - Epoch 124 (124/200):
+2024-04-17 20:41:13,364 - Model - INFO - Train OA: 97.271930
+2024-04-17 20:41:42,494 - Model - INFO - Test OA: 79.042332, mAcc: 75.995824
+2024-04-17 20:41:42,494 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 20:41:42,494 - Model - INFO - Save model...
+2024-04-17 20:41:42,494 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 20:41:42,591 - Model - INFO - Epoch 125 (125/200):
+2024-04-17 20:46:36,263 - Model - INFO - Train OA: 97.692982
+2024-04-17 20:47:05,313 - Model - INFO - Test OA: 77.307425, mAcc: 73.809776
+2024-04-17 20:47:05,313 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 20:47:05,313 - Model - INFO - Epoch 126 (126/200):
+2024-04-17 20:51:57,889 - Model - INFO - Train OA: 97.649123
+2024-04-17 20:52:27,108 - Model - INFO - Test OA: 78.105482, mAcc: 74.874438
+2024-04-17 20:52:27,109 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 20:52:27,109 - Model - INFO - Epoch 127 (127/200):
+2024-04-17 20:57:20,774 - Model - INFO - Train OA: 98.122807
+2024-04-17 20:57:49,777 - Model - INFO - Test OA: 78.278973, mAcc: 74.638866
+2024-04-17 20:57:49,777 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 20:57:49,777 - Model - INFO - Epoch 128 (128/200):
+2024-04-17 21:02:43,776 - Model - INFO - Train OA: 97.631579
+2024-04-17 21:03:12,810 - Model - INFO - Test OA: 77.931992, mAcc: 74.400719
+2024-04-17 21:03:12,810 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 21:03:12,810 - Model - INFO - Epoch 129 (129/200):
+2024-04-17 21:08:05,305 - Model - INFO - Train OA: 97.859649
+2024-04-17 21:08:34,414 - Model - INFO - Test OA: 78.036086, mAcc: 74.930422
+2024-04-17 21:08:34,414 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 21:08:34,414 - Model - INFO - Epoch 130 (130/200):
+2024-04-17 21:13:28,280 - Model - INFO - Train OA: 97.771930
+2024-04-17 21:13:58,023 - Model - INFO - Test OA: 78.244275, mAcc: 74.601959
+2024-04-17 21:13:58,023 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 21:13:58,023 - Model - INFO - Epoch 131 (131/200):
+2024-04-17 21:18:51,861 - Model - INFO - Train OA: 98.008772
+2024-04-17 21:19:21,035 - Model - INFO - Test OA: 77.862595, mAcc: 74.247161
+2024-04-17 21:19:21,035 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 21:19:21,035 - Model - INFO - Epoch 132 (132/200):
+2024-04-17 21:24:14,541 - Model - INFO - Train OA: 98.008772
+2024-04-17 21:24:43,878 - Model - INFO - Test OA: 77.723803, mAcc: 74.597043
+2024-04-17 21:24:43,878 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 21:24:43,878 - Model - INFO - Epoch 133 (133/200):
+2024-04-17 21:29:39,080 - Model - INFO - Train OA: 97.754386
+2024-04-17 21:30:08,202 - Model - INFO - Test OA: 77.897294, mAcc: 74.801635
+2024-04-17 21:30:08,202 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 21:30:08,202 - Model - INFO - Epoch 134 (134/200):
+2024-04-17 21:35:00,930 - Model - INFO - Train OA: 97.535088
+2024-04-17 21:35:30,717 - Model - INFO - Test OA: 78.140180, mAcc: 75.123926
+2024-04-17 21:35:30,717 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 21:35:30,717 - Model - INFO - Epoch 135 (135/200):
+2024-04-17 21:40:25,150 - Model - INFO - Train OA: 97.956140
+2024-04-17 21:40:54,854 - Model - INFO - Test OA: 78.695350, mAcc: 75.318608
+2024-04-17 21:40:54,855 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 21:40:54,855 - Model - INFO - Epoch 136 (136/200):
+2024-04-17 21:45:47,393 - Model - INFO - Train OA: 97.921053
+2024-04-17 21:46:16,963 - Model - INFO - Test OA: 77.689105, mAcc: 75.212042
+2024-04-17 21:46:16,963 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 21:46:16,963 - Model - INFO - Epoch 137 (137/200):
+2024-04-17 21:51:08,595 - Model - INFO - Train OA: 97.728070
+2024-04-17 21:51:38,101 - Model - INFO - Test OA: 77.238029, mAcc: 74.679956
+2024-04-17 21:51:38,101 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 21:51:38,101 - Model - INFO - Epoch 138 (138/200):
+2024-04-17 21:56:32,604 - Model - INFO - Train OA: 97.947368
+2024-04-17 21:57:01,713 - Model - INFO - Test OA: 78.452464, mAcc: 75.052526
+2024-04-17 21:57:01,713 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 21:57:01,713 - Model - INFO - Epoch 139 (139/200):
+2024-04-17 22:01:56,171 - Model - INFO - Train OA: 97.824561
+2024-04-17 22:02:25,338 - Model - INFO - Test OA: 77.099237, mAcc: 74.526530
+2024-04-17 22:02:25,338 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 22:02:25,338 - Model - INFO - Epoch 140 (140/200):
+2024-04-17 22:07:16,506 - Model - INFO - Train OA: 98.017544
+2024-04-17 22:07:46,124 - Model - INFO - Test OA: 78.278973, mAcc: 75.359875
+2024-04-17 22:07:46,124 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 22:07:46,124 - Model - INFO - Epoch 141 (141/200):
+2024-04-17 22:12:37,622 - Model - INFO - Train OA: 98.140351
+2024-04-17 22:13:06,625 - Model - INFO - Test OA: 77.931992, mAcc: 74.941728
+2024-04-17 22:13:06,625 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 22:13:06,625 - Model - INFO - Epoch 142 (142/200):
+2024-04-17 22:17:57,845 - Model - INFO - Train OA: 98.026316
+2024-04-17 22:18:27,060 - Model - INFO - Test OA: 77.897294, mAcc: 74.795497
+2024-04-17 22:18:27,060 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 22:18:27,060 - Model - INFO - Epoch 143 (143/200):
+2024-04-17 22:23:18,318 - Model - INFO - Train OA: 98.184211
+2024-04-17 22:23:47,514 - Model - INFO - Test OA: 79.042332, mAcc: 76.324885
+2024-04-17 22:23:47,514 - Model - INFO - Best OA: 79.042332, mAcc: 76.372131
+2024-04-17 22:23:47,514 - Model - INFO - Save model...
+2024-04-17 22:23:47,514 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 22:23:47,610 - Model - INFO - Epoch 144 (144/200):
+2024-04-17 22:28:39,781 - Model - INFO - Train OA: 98.245614
+2024-04-17 22:29:09,317 - Model - INFO - Test OA: 79.389313, mAcc: 76.596246
+2024-04-17 22:29:09,317 - Model - INFO - Best OA: 79.389313, mAcc: 76.596246
+2024-04-17 22:29:09,317 - Model - INFO - Save model...
+2024-04-17 22:29:09,317 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-17 22:29:09,407 - Model - INFO - Epoch 145 (145/200):
+2024-04-17 22:34:02,842 - Model - INFO - Train OA: 98.175439
+2024-04-17 22:34:32,329 - Model - INFO - Test OA: 78.417765, mAcc: 75.129647
+2024-04-17 22:34:32,329 - Model - INFO - Best OA: 79.389313, mAcc: 76.596246
+2024-04-17 22:34:32,329 - Model - INFO - Epoch 146 (146/200):
+2024-04-17 22:39:28,680 - Model - INFO - Train OA: 98.122807
+2024-04-17 22:39:58,423 - Model - INFO - Test OA: 78.278973, mAcc: 75.142575
+2024-04-17 22:39:58,423 - Model - INFO - Best OA: 79.389313, mAcc: 76.596246
+2024-04-17 22:39:58,423 - Model - INFO - Epoch 147 (147/200):
+2024-04-17 22:44:48,704 - Model - INFO - Train OA: 98.342105
+2024-04-17 22:45:17,832 - Model - INFO - Test OA: 78.487162, mAcc: 75.874883
+2024-04-17 22:45:17,832 - Model - INFO - Best OA: 79.389313, mAcc: 76.596246
+2024-04-17 22:45:17,832 - Model - INFO - Epoch 148 (148/200):
+2024-04-17 22:50:09,470 - Model - INFO - Train OA: 98.166667
+2024-04-17 22:50:38,561 - Model - INFO - Test OA: 78.348369, mAcc: 75.598863
+2024-04-17 22:50:38,561 - Model - INFO - Best OA: 79.389313, mAcc: 76.596246
+2024-04-17 22:50:38,561 - Model - INFO - Epoch 149 (149/200):
+2024-04-17 22:55:32,654 - Model - INFO - Train OA: 98.000000
+2024-04-17 22:56:02,388 - Model - INFO - Test OA: 79.146426, mAcc: 77.004396
+2024-04-17 22:56:02,389 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 22:56:02,389 - Model - INFO - Epoch 150 (150/200):
+2024-04-17 23:00:57,465 - Model - INFO - Train OA: 97.929825
+2024-04-17 23:01:27,122 - Model - INFO - Test OA: 78.174879, mAcc: 75.956913
+2024-04-17 23:01:27,122 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 23:01:27,122 - Model - INFO - Epoch 151 (151/200):
+2024-04-17 23:06:19,951 - Model - INFO - Train OA: 97.877193
+2024-04-17 23:06:48,966 - Model - INFO - Test OA: 78.591256, mAcc: 75.568538
+2024-04-17 23:06:48,966 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 23:06:48,966 - Model - INFO - Epoch 152 (152/200):
+2024-04-17 23:11:40,261 - Model - INFO - Train OA: 97.894737
+2024-04-17 23:12:09,540 - Model - INFO - Test OA: 78.174879, mAcc: 74.760394
+2024-04-17 23:12:09,540 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 23:12:09,540 - Model - INFO - Epoch 153 (153/200):
+2024-04-17 23:17:00,626 - Model - INFO - Train OA: 98.052632
+2024-04-17 23:17:30,163 - Model - INFO - Test OA: 78.452464, mAcc: 75.339416
+2024-04-17 23:17:30,164 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 23:17:30,164 - Model - INFO - Epoch 154 (154/200):
+2024-04-17 23:22:21,965 - Model - INFO - Train OA: 98.254386
+2024-04-17 23:22:51,370 - Model - INFO - Test OA: 78.625954, mAcc: 75.438999
+2024-04-17 23:22:51,370 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 23:22:51,370 - Model - INFO - Epoch 155 (155/200):
+2024-04-17 23:27:43,063 - Model - INFO - Train OA: 98.394737
+2024-04-17 23:28:12,683 - Model - INFO - Test OA: 78.521860, mAcc: 75.098035
+2024-04-17 23:28:12,683 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 23:28:12,684 - Model - INFO - Epoch 156 (156/200):
+2024-04-17 23:33:03,787 - Model - INFO - Train OA: 98.210526
+2024-04-17 23:33:32,985 - Model - INFO - Test OA: 77.862595, mAcc: 74.877924
+2024-04-17 23:33:32,985 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 23:33:32,985 - Model - INFO - Epoch 157 (157/200):
+2024-04-17 23:38:27,448 - Model - INFO - Train OA: 98.324561
+2024-04-17 23:38:56,575 - Model - INFO - Test OA: 78.174879, mAcc: 75.166449
+2024-04-17 23:38:56,575 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 23:38:56,575 - Model - INFO - Epoch 158 (158/200):
+2024-04-17 23:43:48,609 - Model - INFO - Train OA: 98.157895
+2024-04-17 23:44:17,809 - Model - INFO - Test OA: 78.209577, mAcc: 75.247082
+2024-04-17 23:44:17,809 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 23:44:17,809 - Model - INFO - Epoch 159 (159/200):
+2024-04-17 23:49:08,572 - Model - INFO - Train OA: 98.017544
+2024-04-17 23:49:37,630 - Model - INFO - Test OA: 78.487162, mAcc: 76.180275
+2024-04-17 23:49:37,630 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 23:49:37,630 - Model - INFO - Epoch 160 (160/200):
+2024-04-17 23:54:29,793 - Model - INFO - Train OA: 98.026316
+2024-04-17 23:54:59,566 - Model - INFO - Test OA: 78.660652, mAcc: 75.658791
+2024-04-17 23:54:59,566 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-17 23:54:59,566 - Model - INFO - Epoch 161 (161/200):
+2024-04-17 23:59:51,979 - Model - INFO - Train OA: 98.096491
+2024-04-18 00:00:21,161 - Model - INFO - Test OA: 78.591256, mAcc: 75.769770
+2024-04-18 00:00:21,161 - Model - INFO - Best OA: 79.389313, mAcc: 77.004396
+2024-04-18 00:00:21,161 - Model - INFO - Epoch 162 (162/200):
+2024-04-18 00:05:14,898 - Model - INFO - Train OA: 98.192982
+2024-04-18 00:05:44,326 - Model - INFO - Test OA: 79.493407, mAcc: 77.153601
+2024-04-18 00:05:44,326 - Model - INFO - Best OA: 79.493407, mAcc: 77.153601
+2024-04-18 00:05:44,326 - Model - INFO - Save model...
+2024-04-18 00:05:44,326 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-18 00:05:44,462 - Model - INFO - Epoch 163 (163/200):
+2024-04-18 00:10:37,601 - Model - INFO - Train OA: 98.508772
+2024-04-18 00:11:07,322 - Model - INFO - Test OA: 78.868841, mAcc: 75.898401
+2024-04-18 00:11:07,323 - Model - INFO - Best OA: 79.493407, mAcc: 77.153601
+2024-04-18 00:11:07,323 - Model - INFO - Epoch 164 (164/200):
+2024-04-18 00:15:57,535 - Model - INFO - Train OA: 98.359649
+2024-04-18 00:16:27,017 - Model - INFO - Test OA: 78.764747, mAcc: 76.075958
+2024-04-18 00:16:27,017 - Model - INFO - Best OA: 79.493407, mAcc: 77.153601
+2024-04-18 00:16:27,017 - Model - INFO - Epoch 165 (165/200):
+2024-04-18 00:21:18,165 - Model - INFO - Train OA: 98.219298
+2024-04-18 00:21:47,684 - Model - INFO - Test OA: 79.007634, mAcc: 76.616012
+2024-04-18 00:21:47,684 - Model - INFO - Best OA: 79.493407, mAcc: 77.153601
+2024-04-18 00:21:47,684 - Model - INFO - Epoch 166 (166/200):
+2024-04-18 00:26:39,096 - Model - INFO - Train OA: 98.482456
+2024-04-18 00:27:08,244 - Model - INFO - Test OA: 78.487162, mAcc: 75.821222
+2024-04-18 00:27:08,244 - Model - INFO - Best OA: 79.493407, mAcc: 77.153601
+2024-04-18 00:27:08,244 - Model - INFO - Epoch 167 (167/200):
+2024-04-18 00:31:59,629 - Model - INFO - Train OA: 98.596491
+2024-04-18 00:32:29,143 - Model - INFO - Test OA: 79.528105, mAcc: 77.066080
+2024-04-18 00:32:29,143 - Model - INFO - Best OA: 79.528105, mAcc: 77.153601
+2024-04-18 00:32:29,143 - Model - INFO - Save model...
+2024-04-18 00:32:29,143 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-18 00:32:29,239 - Model - INFO - Epoch 168 (168/200):
+2024-04-18 00:37:22,222 - Model - INFO - Train OA: 98.692982
+2024-04-18 00:37:51,298 - Model - INFO - Test OA: 79.389313, mAcc: 76.763375
+2024-04-18 00:37:51,298 - Model - INFO - Best OA: 79.528105, mAcc: 77.153601
+2024-04-18 00:37:51,298 - Model - INFO - Epoch 169 (169/200):
+2024-04-18 00:42:45,092 - Model - INFO - Train OA: 98.254386
+2024-04-18 00:43:14,820 - Model - INFO - Test OA: 78.764747, mAcc: 76.367118
+2024-04-18 00:43:14,820 - Model - INFO - Best OA: 79.528105, mAcc: 77.153601
+2024-04-18 00:43:14,820 - Model - INFO - Epoch 170 (170/200):
+2024-04-18 00:48:07,613 - Model - INFO - Train OA: 98.508772
+2024-04-18 00:48:36,745 - Model - INFO - Test OA: 78.972935, mAcc: 76.599210
+2024-04-18 00:48:36,745 - Model - INFO - Best OA: 79.528105, mAcc: 77.153601
+2024-04-18 00:48:36,745 - Model - INFO - Epoch 171 (171/200):
+2024-04-18 00:53:28,995 - Model - INFO - Train OA: 98.210526
+2024-04-18 00:53:58,183 - Model - INFO - Test OA: 79.007634, mAcc: 76.627287
+2024-04-18 00:53:58,183 - Model - INFO - Best OA: 79.528105, mAcc: 77.153601
+2024-04-18 00:53:58,184 - Model - INFO - Epoch 172 (172/200):
+2024-04-18 00:58:51,751 - Model - INFO - Train OA: 98.157895
+2024-04-18 00:59:21,308 - Model - INFO - Test OA: 79.632200, mAcc: 77.149955
+2024-04-18 00:59:21,308 - Model - INFO - Best OA: 79.632200, mAcc: 77.153601
+2024-04-18 00:59:21,308 - Model - INFO - Save model...
+2024-04-18 00:59:21,308 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-18 00:59:21,403 - Model - INFO - Epoch 173 (173/200):
+2024-04-18 01:04:12,798 - Model - INFO - Train OA: 98.368421
+2024-04-18 01:04:41,971 - Model - INFO - Test OA: 79.181124, mAcc: 76.711200
+2024-04-18 01:04:41,971 - Model - INFO - Best OA: 79.632200, mAcc: 77.153601
+2024-04-18 01:04:41,971 - Model - INFO - Epoch 174 (174/200):
+2024-04-18 01:09:32,981 - Model - INFO - Train OA: 98.394737
+2024-04-18 01:10:02,150 - Model - INFO - Test OA: 79.632200, mAcc: 77.288634
+2024-04-18 01:10:02,150 - Model - INFO - Best OA: 79.632200, mAcc: 77.288634
+2024-04-18 01:10:02,150 - Model - INFO - Save model...
+2024-04-18 01:10:02,150 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-18 01:10:02,265 - Model - INFO - Epoch 175 (175/200):
+2024-04-18 01:14:53,913 - Model - INFO - Train OA: 98.114035
+2024-04-18 01:15:23,275 - Model - INFO - Test OA: 79.042332, mAcc: 76.980215
+2024-04-18 01:15:23,275 - Model - INFO - Best OA: 79.632200, mAcc: 77.288634
+2024-04-18 01:15:23,275 - Model - INFO - Epoch 176 (176/200):
+2024-04-18 01:20:14,858 - Model - INFO - Train OA: 98.473684
+2024-04-18 01:20:44,506 - Model - INFO - Test OA: 78.695350, mAcc: 76.256438
+2024-04-18 01:20:44,506 - Model - INFO - Best OA: 79.632200, mAcc: 77.288634
+2024-04-18 01:20:44,506 - Model - INFO - Epoch 177 (177/200):
+2024-04-18 01:25:35,236 - Model - INFO - Train OA: 98.429825
+2024-04-18 01:26:04,902 - Model - INFO - Test OA: 80.013879, mAcc: 77.282120
+2024-04-18 01:26:04,902 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 01:26:04,902 - Model - INFO - Save model...
+2024-04-18 01:26:04,902 - Model - INFO - Saving at log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/checkpoints/best_model.pth
+2024-04-18 01:26:05,008 - Model - INFO - Epoch 178 (178/200):
+2024-04-18 01:30:58,875 - Model - INFO - Train OA: 98.473684
+2024-04-18 01:31:27,995 - Model - INFO - Test OA: 79.597502, mAcc: 76.796695
+2024-04-18 01:31:27,995 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 01:31:27,995 - Model - INFO - Epoch 179 (179/200):
+2024-04-18 01:36:21,185 - Model - INFO - Train OA: 98.333333
+2024-04-18 01:36:50,294 - Model - INFO - Test OA: 79.007634, mAcc: 76.321077
+2024-04-18 01:36:50,294 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 01:36:50,294 - Model - INFO - Epoch 180 (180/200):
+2024-04-18 01:41:41,437 - Model - INFO - Train OA: 98.649123
+2024-04-18 01:42:11,163 - Model - INFO - Test OA: 78.799445, mAcc: 75.800390
+2024-04-18 01:42:11,164 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 01:42:11,164 - Model - INFO - Epoch 181 (181/200):
+2024-04-18 01:47:03,912 - Model - INFO - Train OA: 98.561404
+2024-04-18 01:47:32,919 - Model - INFO - Test OA: 78.903539, mAcc: 76.321201
+2024-04-18 01:47:32,919 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 01:47:32,919 - Model - INFO - Epoch 182 (182/200):
+2024-04-18 01:52:24,523 - Model - INFO - Train OA: 98.464912
+2024-04-18 01:52:54,238 - Model - INFO - Test OA: 78.660652, mAcc: 75.998186
+2024-04-18 01:52:54,238 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 01:52:54,238 - Model - INFO - Epoch 183 (183/200):
+2024-04-18 01:57:49,586 - Model - INFO - Train OA: 98.473684
+2024-04-18 01:58:19,262 - Model - INFO - Test OA: 78.764747, mAcc: 75.818568
+2024-04-18 01:58:19,262 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 01:58:19,262 - Model - INFO - Epoch 184 (184/200):
+2024-04-18 02:03:12,846 - Model - INFO - Train OA: 98.491228
+2024-04-18 02:03:42,358 - Model - INFO - Test OA: 79.528105, mAcc: 76.372307
+2024-04-18 02:03:42,358 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 02:03:42,358 - Model - INFO - Epoch 185 (185/200):
+2024-04-18 02:08:33,585 - Model - INFO - Train OA: 98.280702
+2024-04-18 02:09:02,691 - Model - INFO - Test OA: 79.493407, mAcc: 76.546393
+2024-04-18 02:09:02,691 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 02:09:02,691 - Model - INFO - Epoch 186 (186/200):
+2024-04-18 02:13:53,642 - Model - INFO - Train OA: 98.438596
+2024-04-18 02:14:22,774 - Model - INFO - Test OA: 78.834143, mAcc: 75.924387
+2024-04-18 02:14:22,774 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 02:14:22,774 - Model - INFO - Epoch 187 (187/200):
+2024-04-18 02:19:13,544 - Model - INFO - Train OA: 98.263158
+2024-04-18 02:19:43,233 - Model - INFO - Test OA: 79.146426, mAcc: 75.903577
+2024-04-18 02:19:43,233 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 02:19:43,233 - Model - INFO - Epoch 188 (188/200):
+2024-04-18 02:24:34,552 - Model - INFO - Train OA: 98.587719
+2024-04-18 02:25:03,942 - Model - INFO - Test OA: 79.458709, mAcc: 77.027061
+2024-04-18 02:25:03,942 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 02:25:03,942 - Model - INFO - Epoch 189 (189/200):
+2024-04-18 02:29:57,199 - Model - INFO - Train OA: 98.578947
+2024-04-18 02:30:26,347 - Model - INFO - Test OA: 78.868841, mAcc: 76.117637
+2024-04-18 02:30:26,347 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 02:30:26,347 - Model - INFO - Epoch 190 (190/200):
+2024-04-18 02:35:22,021 - Model - INFO - Train OA: 98.517544
+2024-04-18 02:35:51,098 - Model - INFO - Test OA: 78.556558, mAcc: 75.627296
+2024-04-18 02:35:51,098 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 02:35:51,098 - Model - INFO - Epoch 191 (191/200):
+2024-04-18 02:40:44,052 - Model - INFO - Train OA: 98.464912
+2024-04-18 02:41:13,622 - Model - INFO - Test OA: 79.042332, mAcc: 76.210101
+2024-04-18 02:41:13,622 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 02:41:13,622 - Model - INFO - Epoch 192 (192/200):
+2024-04-18 02:46:07,083 - Model - INFO - Train OA: 98.421053
+2024-04-18 02:46:36,186 - Model - INFO - Test OA: 79.319917, mAcc: 76.697107
+2024-04-18 02:46:36,186 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 02:46:36,186 - Model - INFO - Epoch 193 (193/200):
+2024-04-18 02:51:31,126 - Model - INFO - Train OA: 98.368421
+2024-04-18 02:52:00,177 - Model - INFO - Test OA: 79.389313, mAcc: 76.112312
+2024-04-18 02:52:00,177 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 02:52:00,177 - Model - INFO - Epoch 194 (194/200):
+2024-04-18 02:56:50,512 - Model - INFO - Train OA: 98.394737
+2024-04-18 02:57:20,002 - Model - INFO - Test OA: 78.972935, mAcc: 76.026270
+2024-04-18 02:57:20,002 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 02:57:20,002 - Model - INFO - Epoch 195 (195/200):
+2024-04-18 03:02:11,236 - Model - INFO - Train OA: 98.447368
+2024-04-18 03:02:40,454 - Model - INFO - Test OA: 79.493407, mAcc: 76.882434
+2024-04-18 03:02:40,454 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 03:02:40,454 - Model - INFO - Epoch 196 (196/200):
+2024-04-18 03:07:31,968 - Model - INFO - Train OA: 98.192982
+2024-04-18 03:08:01,105 - Model - INFO - Test OA: 79.077030, mAcc: 76.132671
+2024-04-18 03:08:01,105 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 03:08:01,106 - Model - INFO - Epoch 197 (197/200):
+2024-04-18 03:12:52,144 - Model - INFO - Train OA: 98.368421
+2024-04-18 03:13:21,805 - Model - INFO - Test OA: 78.938237, mAcc: 75.668237
+2024-04-18 03:13:21,806 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 03:13:21,806 - Model - INFO - Epoch 198 (198/200):
+2024-04-18 03:18:16,380 - Model - INFO - Train OA: 98.649123
+2024-04-18 03:18:46,112 - Model - INFO - Test OA: 79.077030, mAcc: 76.138605
+2024-04-18 03:18:46,113 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 03:18:46,113 - Model - INFO - Epoch 199 (199/200):
+2024-04-18 03:23:37,952 - Model - INFO - Train OA: 98.394737
+2024-04-18 03:24:07,379 - Model - INFO - Test OA: 79.146426, mAcc: 76.314828
+2024-04-18 03:24:07,380 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 03:24:07,380 - Model - INFO - Epoch 200 (200/200):
+2024-04-18 03:28:59,357 - Model - INFO - Train OA: 98.456140
+2024-04-18 03:29:28,538 - Model - INFO - Test OA: 78.383067, mAcc: 75.432469
+2024-04-18 03:29:28,539 - Model - INFO - Best OA: 80.013879, mAcc: 77.288634
+2024-04-18 03:29:28,539 - Model - INFO - End of training...
