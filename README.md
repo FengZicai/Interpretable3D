@@ -57,8 +57,8 @@ Please refer to [Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_
 |--|--|--|
 | PointNet2_MSG (paper) |  79.1 | 77.6 |
 | Interpretable3D (paper) |  79.3 | 78.4 |
-| PointNet2_MSG (reprod.) | [79.9](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn\logs\pointnet2_cls_msg.txt) | [77.1](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn\logs\pointnet2_cls_msg.txt) |
-| Interpretable3D-M+PointNet2_MSG (reprod.) | **[80.0](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn_ip3d\logs\pointnet2_cls_msg.txt)** | **[77.3](PointNet2\log\classification\pointnet2_cls_msg_scanobjectnn_ip3d\logs\pointnet2_cls_msg.txt)**|
+| PointNet2_MSG (reprod.) | [79.9](PointNet2/log/classification/pointnet2_cls_msg_scanobjectnn/logs/pointnet2_cls_msg.txt) | [77.1](PointNet2/log/classification/pointnet2_cls_msg_scanobjectnn/logs/pointnet2_cls_msg.txt) |
+| Interpretable3D-M+PointNet2_MSG (reprod.) | **[80.0](PointNet2/log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/logs/pointnet2_cls_msg.txt)** | **[77.3](PointNet2/log/classification/pointnet2_cls_msg_scanobjectnn_ip3d/logs/pointnet2_cls_msg.txt)**|
 
 
 More code and experimental results will be gradually open-sourced.
