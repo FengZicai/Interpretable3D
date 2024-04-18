@@ -84,4 +84,4 @@ Any comments, please email: feng.tuo@student.uts.edu.au.
 
 
 ## Acknowledgments
-We thank for the opensource codebases: [DNC](https://github.com/ChengHan111/DNC), [ProtoSeg](https://github.com/tfzhou/ProtoSeg), [Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch), and [Cluster3DSeg](https://github.com/FengZicai/Cluster3DSeg). 
+We thank for the opensource codebases: [DNC](https://github.com/ChengHan111/DNC), [ProtoSeg](https://github.com/tfzhou/ProtoSeg), [Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch), [PointNeXt](https://github.com/guochengqian/PointNeXt) and [Cluster3DSeg](https://github.com/FengZicai/Cluster3DSeg). 
