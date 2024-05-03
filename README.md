@@ -1,6 +1,6 @@
 # Interpretable3D: An Ad-Hoc Interpretable Classifier for 3D Point Clouds
 
->[Interpretable3D: An Ad-Hoc Interpretable Classifier for 3D Point Clouds]([https://arxiv.org/abs/2307.14605](https://ojs.aaai.org/index.php/AAAI/article/view/27944)) <br>
+>[Interpretable3D: An Ad-Hoc Interpretable Classifier for 3D Point Clouds](https://ojs.aaai.org/index.php/AAAI/article/view/27944)) <br>
 >[Tuo Feng](https://orcid.org/0000-0001-5882-3315), [Ruijie Quan](https://scholar.google.com/citations?user=WKLRPsAAAAAJ&hl=en), [Xiaohan Wang](https://scholar.google.com/citations?hl=zh-CN&user=iGA10XoAAAAJ), [Wenguan Wang](https://sites.google.com/view/wenguanwang),  [Yi Yang](https://scholar.google.com/citations?hl=zh-CN&user=RMSuNFwAAAAJ&view_op=list_works)
 
 This is the official implementation of "Interpretable3D: An Ad-Hoc Interpretable Classifier for 3D Point Clouds" (Accepted at AAAI 2024).
