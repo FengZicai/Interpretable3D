@@ -13,9 +13,7 @@ This is the official implementation of "Interpretable3D: An Ad-Hoc Interpretable
 
 ModelNet40: 
 
-**resampled ModelNet** [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and save in `data/modelnet40_normal_resampled/`.
-or
-**ModelNet** [here](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip) and save in `data/modelnet40_ply_hdf5_2048/`.
+**resampled ModelNet** [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and save in `data/modelnet40_normal_resampled/`, or **ModelNet** [here](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip) and save in `data/modelnet40_ply_hdf5_2048/`.
 
 ScanObjectNN: **ScanObjectNN** [here](https://hkust-vgd.github.io/scanobjectnn/) and save in `data/ScanObjectNN/main_split/`.
 
